@@ -40,6 +40,16 @@ namespace test
             }
 
 
+            foreach (var item in x)
+            {
+                if (item % 2 == 0)
+                {
+                    Console.WriteLine("偶数");
+                } else {
+                    Console.WriteLine("奇数");
+                }
+            }
+
         }
     }
 }
