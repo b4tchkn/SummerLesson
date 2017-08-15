@@ -17,12 +17,13 @@ namespace test
             var d = 5.9;
 
             int e = (int)d;
-            double f = (double)e;
+            double f = (double)c;
 
 
-
-
-
+            string s = "Sample Text";
+            Console.WriteLine(s);
+            Console.WriteLine(
+                string.Format("({0}, {1})", 10, 20));
         }
     }
 }
