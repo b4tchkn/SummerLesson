@@ -24,6 +24,15 @@ namespace test
             Console.WriteLine(s);
             Console.WriteLine(
                 string.Format("({0}, {1})", 10, 20));
+
+
+            int[] x = new[] { 1, 2, 3, 4, 5 };
+
+
+            for (int i = 0; i < x.Length; i++)
+            {
+                Console.WriteLine(x[i]);
+            }
         }
     }
 }
