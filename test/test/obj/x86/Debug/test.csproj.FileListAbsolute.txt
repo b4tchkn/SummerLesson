@@ -1,0 +1,5 @@
+/Users/kakerunakabachi/Projects/test/test/bin/Debug/test.exe
+/Users/kakerunakabachi/Projects/test/test/bin/Debug/test.pdb
+/Users/kakerunakabachi/Projects/test/test/obj/x86/Debug/test.csproj.CoreCompileInputs.cache
+/Users/kakerunakabachi/Projects/test/test/obj/x86/Debug/test.exe
+/Users/kakerunakabachi/Projects/test/test/obj/x86/Debug/test.pdb
