@@ -45,11 +45,18 @@ namespace test
                 if (item % 2 == 0)
                 {
                     Console.WriteLine("偶数");
-                } else {
+                }
+                else
+                {
                     Console.WriteLine("奇数");
                 }
             }
-
         }
+
+		private static int Plus(int a, int c)
+		{
+			int g = a + c;
+			return g;
+		}
     }
 }
