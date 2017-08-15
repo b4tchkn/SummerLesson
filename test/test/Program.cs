@@ -33,6 +33,13 @@ namespace test
             {
                 Console.WriteLine(x[i]);
             }
+
+            foreach (var item in x)
+            {
+                Console.WriteLine(item);
+            }
+
+
         }
     }
 }
