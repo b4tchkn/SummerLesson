@@ -53,10 +53,30 @@ namespace test
             }
         }
 
-		private static int Plus(int a, int c)
+        private static int Plus(int a, int c)
+        {
+            int g = a + c;
+            return g;
+        }
+
+		struct Point
 		{
-			int g = a + c;
-			return g;
+			public int X;
+			public int Y;
 		}
+
+        static void PointSet(string[] args)
+        {
+            var p = new Point
+            {
+                X = 10,
+                Y = 20
+            };
+
+            Console.WriteLine(p.X);
+            Console.WriteLine(p.Y);
+        }
+
+
     }
 }
