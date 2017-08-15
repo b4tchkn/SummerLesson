@@ -16,6 +16,12 @@ namespace test
             var c = 10;
             var d = 5.9;
 
+            int e = (int)d;
+            double f = (double)e;
+
+
+
+
 
         }
     }
