@@ -25,4 +25,4 @@ let dict2: [String : String] = [String : String]()
 //dict2["iPhone6plus"] = ["softbank"]←できない
 let dict3: [String : String] =  ["iPhone6s" : "docomo", "iPhone7" : "au", "iPhone6plus" : "softbank"]
 
-
+/*Optional型*/
