@@ -35,5 +35,15 @@ if let v = value {
     print(v)//unwrapされた
 }
 
+var value2: String? = nil
+value2 = "Mac"
+print(value2)
+print(value2!)//force unwrap
+
+var value3: String? = nil
+value3 = "iPhone"
+let newValue = value3 ?? ""//value3に入ってたらそれを代入，空だったらnilを代入
+print(newValue)
+
 
 
