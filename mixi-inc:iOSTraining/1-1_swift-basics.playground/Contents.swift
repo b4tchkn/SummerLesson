@@ -66,3 +66,15 @@ func showYear2(_ year: Int) {
     print("\(year)年")
 }
 showYear2(1945)
+
+/*class*/
+class Dog {
+    var name: String = ""
+    
+    func bark(name: String) {
+        print("\(name)がわんわんと吠えた")
+    }
+}
+let dog = Dog()
+dog.name = "ぽち"
+dog.bark(name: dog.name)
