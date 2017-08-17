@@ -50,4 +50,10 @@ var value4: String! = nil
 value4 = "iMac"
 print(value4)
 
+/*メソッド*/
+func show(year: Int) {
+    print("\(year)年")
+}
+show(year: 2017)
+
 
