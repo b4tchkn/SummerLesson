@@ -45,5 +45,9 @@ value3 = "iPhone"
 let newValue = value3 ?? ""//value3に入ってたらそれを代入，空だったらnilを代入
 print(newValue)
 
+/*ImplicitlyUnwrappedOptional型*/
+var value4: String! = nil
+value4 = "iMac"
+print(value4)
 
 
