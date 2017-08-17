@@ -26,3 +26,14 @@ let dict2: [String : String] = [String : String]()
 let dict3: [String : String] =  ["iPhone6s" : "docomo", "iPhone7" : "au", "iPhone6plus" : "softbank"]
 
 /*Optional型*/
+var value: String? = nil//valueはOptional型
+value = "Apple"
+print(value)
+
+//optional binding
+if let v = value {
+    print(v)//unwrapされた
+}
+
+
+
