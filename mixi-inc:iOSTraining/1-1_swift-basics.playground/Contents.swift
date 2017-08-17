@@ -54,6 +54,15 @@ print(value4)
 func show(year: Int) {
     print("\(year)年")
 }
-show(year: 2017)
+show(year: 1996)
 
+//違う書き方
+func showYear(nowYear year: Int) {
+    print("\(year)年")
+}
+showYear(nowYear: 2017)
 
+func showYear2(_ year: Int) {
+    print("\(year)年")
+}
+showYear2(1945)
