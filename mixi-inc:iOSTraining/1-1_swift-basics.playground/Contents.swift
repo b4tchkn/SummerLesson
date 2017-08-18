@@ -71,10 +71,25 @@ showYear2(1945)
 class Dog {
     var name: String = ""
     
-    func bark(name: String) {
-        print("\(name)がわんわんと吠えた")
+    func bark() {
+        print("わんわん")
     }
 }
 let dog = Dog()
 dog.name = "ぽち"
-dog.bark(name: dog.name)
+dog.bark()
+
+//classの継承
+class PoliceDog: Dog {
+    override func bark() {
+        super.bark()
+        print("逮捕しちゃうぞ")
+    }
+    
+    func arrest() {
+        print("\(self.name)は犯人を捕まえた")
+    }
+}
+let policedog = PoliceDog()
+policedog.name = "ジョン"
+policedog.bark()
