@@ -93,3 +93,29 @@ class PoliceDog: Dog {
 let policedog = PoliceDog()
 policedog.name = "ジョン"
 policedog.bark()
+
+/*struct*/
+struct Person {
+    var name: String
+    var age: Int
+    
+    mutating func comesBirthday() {
+    age += 1
+    }
+}
+let person = Person(name: "太郎", age: 45)
+//person.age = 66←できない（インスタンスがverじゃないから）
+print(person)
+//person.comesBirthday()←できない（インスタンスがverじゃないから）
+struct Person2 {
+    var name: String
+    var age: Int
+    
+    init() {
+        name = "二郎"
+        age = 77
+    }
+}
+//let person2 = Person2(name: "三郎", age: 33) ←initあるからできない
+let person2 = Person2()
+print(person2)//initの中身が適用されている
